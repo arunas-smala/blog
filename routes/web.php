@@ -31,3 +31,8 @@ Route::get('contacts', function() {
     return view('contacts', $data);
 });
 
+Route::get('skills', function() {
+    $skills = ['php', 'laravel'];
+    return view('skills', compact('skills'));
+});
+
