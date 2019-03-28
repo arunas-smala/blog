@@ -85,6 +85,7 @@
                 </div>
 
                 <div class="links">
+                    <a href="{{ route('files.index')}}">Storage</a>
                     <a href="{{ route('page_contacts')}}">Contacts</a>
                     <a href="https://laravel.com/docs">Docs</a>
                     <a href="https://laracasts.com">Laracasts</a>

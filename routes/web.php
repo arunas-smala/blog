@@ -25,4 +25,4 @@ Route::get('skills', function() {
 });
 
 Route::resource('posts', 'PostController');
-
+Route::resource('files', 'FileController');
