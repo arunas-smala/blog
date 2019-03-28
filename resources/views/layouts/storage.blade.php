@@ -64,14 +64,10 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
-            <div class="content">
-                Storage
+        Storage
 
-                @yield('content')
+        @yield('content')
 
-                @include('partials.footer')
-            </div>
-        </div>
+        @include('partials.footer')
     </body>
 </html>

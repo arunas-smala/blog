@@ -13,7 +13,7 @@ class FileController extends Controller
      */
     public function index()
     {
-        $files = [
+        $files = collect([
             [
                 'filename' => 'vienas.png',
                 'size' => '1 byte',
@@ -34,7 +34,7 @@ class FileController extends Controller
                 'size' => '4 bytes',
                 'created_at' => '2019-01-04 00:00:00'
             ]
-        ];
+        ]);
 
         return view('storage.index', compact('files'));
     }
